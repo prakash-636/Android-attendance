@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartattender"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddstudentActivity"
+            android:label="@string/title_activity_addstudent" >
+        </activity>
+        <activity
+            android:name=".AddfacultyActivity"
+            android:label="@string/title_activity_addfaculty" >
+        </activity>
+        <activity
+            android:name=".AdminMenuActivity"
+            android:label="@string/title_activity_admin_menu" >
+        </activity>
+        <activity
+            android:name=".FltMenuActivity"
+            android:label="@string/title_activity_flt_menu" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".MarkattendanceActivity"
+            android:label="@string/title_activity_markattendance" >
+        </activity>
+        <activity
+            android:name=".ViewfacultyActivity"
+            android:label="@string/title_activity_viewfaculty" >
+        </activity>
+        <activity
+            android:name=".ViewstudentActivity"
+            android:label="@string/title_activity_viewstudent" >
+        </activity>
+        <activity
+            android:name=".ViewattendanceActivity"
+            android:label="@string/title_activity_viewattendance" >
+        </activity>
+        <activity
+            android:name=".ViewStudentActivity"
+            android:label="@string/title_activity_view_student" >
+        </activity>
+        <activity
+            android:name=".ViewActivity"
+            android:label="@string/title_activity_view" >
+        </activity>
+        <activity
+            android:name=".ListattendanceActivity"
+            android:label="@string/title_activity_listattendance" >
+        </activity>
+    </application>
+
+</manifest>
