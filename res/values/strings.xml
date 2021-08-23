@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ATTENDER</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_addfaculty">MainActivity</string>
+    <string name="title_activity_addstudent">MainActivity</string>
+    <string name="title_activity_admin_menu">MainActivity</string>
+    <string name="title_activity_flt_menu">MainActivity</string>
+    <string name="title_activity_login">MainActivity</string>
+    <string name="title_activity_markattendance">MainActivity</string>
+    <string name="title_activity_viewfaculty">MainActivity</string>
+    <string name="title_activity_viewstudent">MainActivity</string>
+    <string name="title_activity_viewattendance">MainActivity</string>
+    <string name="title_activity_view_student">MainActivity</string>
+    <string name="title_activity_view">MainActivity</string>
+    <string name="title_activity_listattendance">MainActivity</string>
+
+</resources>

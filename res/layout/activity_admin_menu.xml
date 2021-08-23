@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient"
+    tools:context="com.example.attender.AdminMenuActivity" >
+
+    <Button
+        android:id="@+id/logoutbtna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addFaculty"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/addFaculty"
+        android:layout_marginBottom="21dp"
+        android:text="logout" 
+        android:background="@drawable/roundedbutton"/>
+
+    <Button
+        android:id="@+id/viewFaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addFaculty"
+        android:layout_alignRight="@+id/addFaculty"
+        android:layout_below="@+id/addFaculty"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/roundedbutton"
+        android:text="view faculty" />
+
+    <Button
+        android:id="@+id/viewstudenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewFaculty"
+        android:layout_alignRight="@+id/viewFaculty"
+        android:layout_below="@+id/viewFaculty"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundedbutton"
+        android:text="view student" />
+
+    <Button
+        android:id="@+id/viewAttendancea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewstudenta"
+        android:layout_alignRight="@+id/viewstudenta"
+        android:layout_below="@+id/viewstudenta"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/roundedbutton"
+        android:text="view attendance" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Admin dashbord"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/addFaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Add faculty" />
+
+</RelativeLayout>
